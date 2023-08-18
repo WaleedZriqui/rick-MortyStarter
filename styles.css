@@ -1,16 +1,47 @@
 * {
-    padding: 0px;
-    margin: 0px;
-  }
-  
-  body {
-    background-color: gainsboro;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .title {
-    color:black;
-    font-size: 48px;
-    text-align: center;
-    margin: 40px;
-  }
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: gainsboro;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  color: black;
+  font-size: 48px;
+  text-align: center;
+  margin: 40px;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+li {
+  border: solid 1px;
+  border-radius: 20px;
+  max-width: 250px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+li h3 {
+  margin: 0 0 5px 0
+}
+
+li p {
+  font-size: small;
+}
+
+img {
+  border-radius: 50%;
+  text-align: center;
+  height: 200px;
+}
